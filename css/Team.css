@@ -1,0 +1,368 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+ }
+ body{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    /* margin-bottom: 20px; */
+ }
+ #background-color{
+    background-color: black;
+    height:100%;
+    width:100%;
+ }
+
+ .back-button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .back-button a{
+   text-decoration: none;
+   /* color:rgb(149, 157, 192); */
+   color:white;
+   font-weight: bold;
+
+ }
+ .back-button a:hover{
+    color:rgb(149, 157, 192);
+    transition: 0.3s;
+ }
+
+ .headings{
+   display:block;
+   /* margin-top: 20px; */
+   /* margin-left: 80px; */
+   margin-bottom: 65px;
+   color:white;
+   font-size: 45px;
+   /* font-weight: bold; */
+   margin: auto;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+
+   /* border: 2px solid green; */
+   flex-direction: column;
+   row-gap: 1.2rem;
+   width:350px
+
+
+}
+.heading-1
+{
+    /* border:2px solid red; */
+    font-size: 50px;
+    color:white;
+   display:block;
+   
+
+
+} 
+.heading-2{
+    /* border: 2px solid blue; */
+    font-size: 19px;
+    color:white;
+   display:block;
+
+}
+.main-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border: 2px solid purple; */
+}
+.primarybox-team{
+    border:2px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin-top: 15px;
+    width:80%;
+
+}
+.team-member-1{
+    background-color: #D9D9D9;
+    border-radius: 56px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:325px;
+    top:28%;
+    left:15%;
+    position: absolute;
+    animation-name: vatsal;
+    animation-duration: 1.2s;
+}
+.team-member-2{
+    background-color:#D9D9D9;
+
+    border-radius: 56px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:325px;
+    top:28%;
+    right:15%;
+    animation-name: shreya;
+    animation-duration: 1.2s;
+    position: absolute;
+    margin-bottom: 20px;
+
+}
+@keyframes vatsal{
+    0%{
+        left:35%;
+    }
+   
+    100%{
+        left:15%;}
+    }
+
+@keyframes shreya{
+        0%{
+            right:35%;
+        }
+        100%{
+            right:15%;
+        }}
+
+.team-member-photo2{
+    /* border: 2px solid hotpink; */
+    display: block;
+    border: 1px solid grey;
+
+    margin-top: 35px;
+    border-radius: 50%;
+    height:225px;
+    width:225px;
+    background:url('../images/team-shreya.jpg') no-repeat center center/cover;
+}
+.team-member-photo1{
+    /* border: 2px solid hotpink; */
+    display: block;
+    border: 1px solid grey;
+
+    margin-top: 35px;
+    border-radius: 50%;
+    height:225px;
+    width:225px;
+    background:url('../images/team-vatsal.jpg') no-repeat center center/cover;
+}
+.team-member-info{
+    margin-top:20px;
+    /* color:white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.05rem;
+    ;
+}
+.name{
+    font-weight: bold;
+    /* padding-bottom: 15px; */
+    font-size: 15px;
+    /* border: 2px solid blue; */
+    margin-bottom: 5px;
+    letter-spacing: 0.5px
+   ;
+    
+}
+.innerbox{
+    font-size: 12px;
+    /* border: 2px solid red; */
+    font-weight: 549;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+
+}
+.instagram img{
+    height:50px;
+    width:50px;
+    padding-right: 20px;
+}
+.linkedin img{
+    height:50px;
+    width:50px;
+    padding-left: 10px;
+
+
+}
+.link img{
+    height:50px;
+    width:50px;
+    padding-right: 20px;
+}
+ @media only screen and (max-width:749px){
+    .team-member-1{
+        background-color: #D9D9D9;
+        border-radius: 56px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:285px;
+        top:28%;
+        left:10%;
+        position: absolute;
+        /* animation-name: vatsal; */
+        animation-duration: 1.2s;
+    }
+    .team-member-2{
+        background-color:#D9D9D9;
+    
+        border-radius: 56px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:285px;
+        top:95vh;
+        left:10%;
+        /* animation-name: shreya; */
+        animation-duration: 1.2s;
+        position: absolute;
+    
+    }
+    
+    .heading-1
+{
+   
+    font-size: 37px;
+    color:white;
+   display:block;
+   margin-bottom: 15px;
+   margin-top: 5px;
+
+
+} 
+.heading-2
+{
+   
+    font-size: 15px;
+    color:white;
+   display:block;
+   margin-bottom: 15px;
+
+
+} 
+    .team-member-photo2{
+    
+        height:200px;
+        width:200px;
+    }
+    .team-member-photo1{
+        display: block;
+    
+        height:200px;
+        width:200px;
+    }
+    @keyframes vatsal{
+        100%{
+            right:10%;
+        }
+      
+        0%{
+            right:-10%;}
+        }
+    
+    @keyframes shreya{
+            0%{
+                right:-10%;
+            }
+            100%{
+                right:10%;
+            }
+    
+  }
+
+} 
+@media (min-width:750px) and (max-width:955px){
+    .team-member-1{
+        background-color: #D9D9D9;
+        border-radius: 56px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:325px;
+        top:28%;
+        left:33%;
+        position: absolute;
+        animation-name: vatsal;
+        animation-duration: 1.2s;
+    }
+    .team-member-2{
+        background-color:#D9D9D9;
+    
+        border-radius: 56px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:325px;
+        top:95%;
+        left:33%;
+        animation-name: shreya;
+        animation-duration: 1.2s;
+        position: absolute;
+    
+    }
+    .team-member-photo2{
+    
+        height:225px;
+        width:225px;
+    }
+    .team-member-photo1{
+        display: block;
+    
+        height:225px;
+        width:225px;
+    }
+    @keyframes vatsal{
+        100%{
+            left:25%;
+        }
+     
+        0%{
+            left:-10%;}
+        }
+    
+    @keyframes shreya{
+        100%{
+            left:25%;
+        }
+     
+        0%{
+            left:-10%;}
+    
+  } 
+} 
+    
+  @media (min-width:955px) and (max-width:1050px){
+   
+  } 
+  @media (min-width:1050px) and (max-width:1400px){
+  
+  } 

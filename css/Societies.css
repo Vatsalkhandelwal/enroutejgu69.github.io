@@ -1,0 +1,359 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+
+ }
+ body{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+ }
+
+ #outlets-background-color{
+    background-color: black;
+    height:100%;
+    width:100%;
+ }
+
+ .outlets-back-button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 35px;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .outlets-back-button a{
+   color:white;
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: none;
+
+ }
+ .outlets-back-button a:hover{
+   color:rgb(149, 157, 192);
+   transition: 0.3s;
+ }
+
+ .heading{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 65px;
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+
+ }
+ .outlets-primarybox-adjustment{
+   margin-left: 5%;
+   margin-right: 20px;
+ }
+ .outletsprimarybox{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 65px;
+    column-gap: 35px;
+    margin-bottom: 20px;
+ }
+ .outlets-mainbox{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 110px;
+    width: 440px;
+    align-items: center;
+    justify-content:flex-end;
+    /* padding:24px, 0px, 0px, 0px; */
+ }
+.logo{
+    display: flex;
+    margin-right:-75px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    background-color: #373636;
+    font-weight: 600;
+    font-size: 23px;
+    margin-left: 10px;
+} 
+.name{
+   padding-top: 20px;
+   color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height:100px;
+    width:auto;
+    /* background-color:rgb(227, 224, 224); */
+    background-color:black;
+    /* border: 2px solid  white; */
+
+    border-radius: 18px;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left:85px;
+    /* border:2px solid pink */
+
+}
+
+.socials{
+   color:white;
+   /* border:2px solid blue; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+width: 200px;}
+.instagram img{
+   height:40px;
+   width:40px;
+}
+.linkedin img{
+   height:40px;
+   width:40px;
+
+}
+.link img{
+   height:40px;
+   width:40px;
+}
+#logo1{
+   background:url('../images/society/quiz.jpeg') no-repeat center center/cover;
+
+}#logo2{
+   background:url('../images/society/disability.jpeg') no-repeat center center/cover;
+
+}#logo3{
+   background:url('../images/society/sports.jpeg') no-repeat center center/cover;
+
+}#logo4{
+   background:url('../images/society/international\ law.jpg') no-repeat center center/cover;
+
+}#logo5{
+   background:url('../images/society/theatre.jpeg') no-repeat center center/cover;
+
+}#logo6{
+   background:url('../images/society/film.jpeg') no-repeat center center/cover;
+
+}#logo7{
+   background:url('../images/society/history.jpeg') no-repeat center center/cover;
+
+}#logo8{
+   background:url('../images/society/adrs.jpeg') no-repeat center center/cover;
+
+}#logo9{
+   background:url('../images/society/debate.jpg') no-repeat center center/cover;
+
+}#logo10{
+   background:url('../images/society/performing\ arts.jpeg') no-repeat center center/cover;
+
+}#logo11{
+   background:url('../images/society/literature.jpeg') no-repeat center center/cover;
+
+}#logo12{
+   background:url('../images/society/investment.jpeg') no-repeat center center/cover;
+
+}#logo13{
+   background:url('../images/society/fashion.jpg') no-repeat center center/cover;
+
+}#logo14{
+   background:url('../images/society/accountancy.jpg') no-repeat center center/cover;
+
+}#logo15{
+   background:url('Backgroundlol.jpg') no-repeat center center/cover;
+
+}#logo16{
+   background:url('../images/society/client.jpg') no-repeat center center/cover;
+
+}#logo17{
+   background:url('../images/society/esports.jpg') no-repeat center center/cover;
+
+}#logo18{
+   background:url('../images/society/mun.jpg') no-repeat center center/cover;
+
+}#logo19{
+   background: url('../images/society/aviation.jpg') no-repeat center center/cover;
+
+}#logo20{
+   background:url('../images/society/disability.jpg') no-repeat center center/cover;
+
+}#logo21{
+   background:url('../images/society/girlup.jpg') no-repeat center center/cover;
+
+}#logo22{
+   background:url('../images/society/child.jpg') no-repeat center center/cover;
+
+}#logo23{
+   background:url('../images/ENT-logo.png') no-repeat center center/cover;
+
+}#logo24{
+   background:url('../images/society/roctarct.jpg') no-repeat center center/cover;
+
+}#logo25{
+   background:url('../images/society/hr.jpg') no-repeat center center/cover;
+
+}#logo26{
+   background:url('../images/society/SPORTS\ CLUB.jpg') no-repeat center center/cover;
+
+}#logo27{
+   background:url('../images/society/aws.jpg') no-repeat center center/cover;
+
+}#logo28{
+   background:url('../images/society/IDRS.jpg') no-repeat center center/cover;
+
+}#logo29{
+   background:url('../images/society/photography.jpg') no-repeat center center/cover;
+
+}
+#logo30{
+   background:url('../images/society/psi.jpg') no-repeat center center/cover;
+
+}
+
+#logo31{
+   background:url('../images/society/music.jpg') no-repeat center center/cover;
+
+}
+
+#logo32{
+   background:url('../images/society/catalyst.jpg') no-repeat center center/cover;
+
+}
+
+#logo33{
+   background:url('../images/society/moot.jpg') no-repeat center center/cover;
+
+}
+@media only screen and (max-width:699px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(1, auto);
+      max-width: 100%;
+   }
+   .outlets-primarybox-adjustment{
+      margin-left: none;
+      margin-right: 20px;
+    }
+   .heading{
+      font-size: 23px;
+   }
+   .phone{
+     
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: auto;
+         margin: auto;
+      }
+
+   .explore-primarybox-adjustment{
+      /* margin-left: 10%;
+      margin: 0px auto 0px auto; */
+      /* margin-right: 20px; */
+      align-items: center;
+    }
+    .outlets-mainbox{
+      display: flex;
+      flex-direction: row-reverse;
+      border: 1px solid white;
+      border-radius: 9px;
+     height: 110px;
+      width: 310px;
+      align-items: center;
+      justify-content:flex-end;
+      /* padding:24px, 0px, 0px, 0px; */
+   }
+    .logo{
+      display: flex;
+      margin-right:-75px;
+      /* border: 2px solid red; */
+      border-radius: 50%;
+      height:75px;
+      width:75px;
+      background-color: #373636;
+      font-weight: 600;
+      font-size: 23px;
+  } 
+  .name{
+     padding-top: 20px;
+     color: white;
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+      height:100px;
+      width:220px;
+      /* background-color:rgb(227, 224, 224); */
+      background-color:black;
+      /* border: 2px solid  white; */
+  
+      border-radius: 18px;
+      flex-direction: column;
+      font-size: 19px;
+      margin-left:85px;
+      /* border:2px solid pink */
+  
+  }
+  .socials{
+     /* display: block; */
+     /* margin: auto; */
+     /* width:380px;
+     height:auto; */
+     /* position:relative;
+     top:50px;
+     left:50px; */
+  
+     color:white;
+     /* border:2px solid blue; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 200px;}
+  .instagram img{
+     height:35px;
+     width:35px;
+  }
+  .linkedin img{
+     height:35px;
+     width:35px;
+  
+  }
+  .link img{
+     height:35px;
+     width:35px;
+  }
+}
+ 
+ @media (min-width:700px) and (max-width:942px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(1, auto);
+   }
+   .outlets-primarybox-adjustment{
+      margin-left: none;
+      margin-right: 20px;
+    }
+    .phone{
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      margin: auto;
+   }
+ } 
+  @media (min-width:943px) and (max-width:1468px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(2, auto);
+   }
+ } 
+ @media (min-width:1469px) and (max-width:1800px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(3, auto);
+   }
+ } 
+ 
+ 

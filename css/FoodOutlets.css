@@ -1,0 +1,215 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+ }
+ body{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 2.5rem;
+
+ }
+
+ #outlets-background-color{
+    background-color: black;
+    height:100%;
+    width:100%;
+ }
+
+ .outlets-back-button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 35px;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .outlets-back-button a{
+   color:white;
+   font-size: 25px;
+   font-weight: bold;
+   text-decoration: none;
+
+ }
+ .outlets-back-button a:hover{
+   color:rgb(149, 157, 192);
+   transition: 0.3s;
+ }
+
+ .heading{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 65px;
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+
+ }
+ .outlets-primarybox-adjustment{
+   margin-left: 5%;
+   margin-right: 20px;
+ }
+ .outletsprimarybox{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 55px;
+    column-gap: 35px;
+ }
+ .outlets-mainbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 167px;
+    width: 300px;
+    padding:24px, 0px, 0px, 0px;
+ }
+ .subbox1-outlets{
+    margin-top: 17px;
+    margin-left: 18px;
+    margin-right: 24px;
+    color:rgba(236, 236, 236, 1);
+    font-size: 27px;
+    width: 250px;
+    font-weight: bold;
+
+ }
+ .subbox2-outlets{
+    margin-top: 9px;
+    color: rgba(166, 166, 166, 1)
+    ;
+    font-size: 19px;
+    margin-left: 18px;
+    margin-right: 24px;
+    width: 250px;
+
+
+ }
+ .subbox2-outlet{
+    margin-top: 5px;
+    color: rgba(166, 166, 166, 1)
+    ;
+    font-size: 19px;
+    margin-left: 18px;
+    margin-right: 24px;
+    width: 250px;
+
+ }
+ .subbox3-outlets{
+    display: flex;
+    margin-top: 18px;
+    border-top: 1px solid white;
+    height:56px;
+    background-color: rgba(18, 18, 18, 1);
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    
+ }
+ .subbox4-outlets{
+    margin-left: 18px;
+    /* margin-right: 24px; */
+    width: 80px;
+    font-size: 16px;
+/* border: 2px solid white; */
+    margin-top:  8px;
+    
+ }
+ .subbox4-outlet{
+    /* padding-left: 20px; */
+    /* border: 2px solid white; */
+    margin-top:  8px;
+    font-size: 16px;
+    margin-left: 3px;
+    
+    width: 80px;
+
+
+ }
+ .subbox5-outlets{
+    /* margin-left: 18px; */
+    /* margin-right: 24px; */
+    /* width: 140px; */
+    font-size: 16px;
+    /* border: 2px solid white; */
+    width: 89px;
+    margin-left: 15px;
+    margin-top:  8px;
+    
+ }
+ .subbox4-outlets a{
+    text-decoration: none;
+    color:rgb(149, 157, 192);
+    font-weight: bold;
+ }
+ .subbox4-outlet a{
+    text-decoration: none;
+    color:rgb(149, 157, 192);
+    font-weight: bold;
+ }
+ .subbox5-outlets a{
+    text-decoration: none;
+    color:rgb(149, 157, 192);
+    font-weight: bold;
+ }
+ 
+ /* responsive coding */
+
+ /* @media only screen and (max-width:430px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(1, auto);
+   }
+   .outlets-primarybox-adjustment{
+      margin:12%;
+    }
+    .heading{
+      flex-direction: column;
+    }
+ }
+  @media (min-width:430px) and (max-width:750px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(2, auto);
+   }
+ } 
+ @media (min-width:750px) and (max-width:1360px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(3, auto);
+   }
+ }  */
+ @media only screen and (max-width:700px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(1, auto);
+   }
+   .outlets-primarybox-adjustment{
+      /* margin-left: 10%;
+      margin: 0px auto 0px auto; */
+      /* margin-right: 20px; */
+      align-items: center;
+    }
+    .heading{
+      flex-direction: column;
+    }
+    .sh-secondary-adjustment{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      margin: auto;
+   }
+ }
+  @media (min-width:700px) and (max-width:1050px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(2, auto);
+   }
+ } 
+ @media (min-width:1050px) and (max-width:1400px){
+   .outletsprimarybox{
+      grid-template-columns: repeat(3, auto);
+   }
+ } 

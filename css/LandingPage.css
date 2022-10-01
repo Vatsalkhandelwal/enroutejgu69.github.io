@@ -1,0 +1,263 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+body{
+    background-image: url('../images/Landing-Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width:100%;
+    font-family: "Poppins", sans-serif;
+    
+    color: aliceblue;
+    line-height: normal;
+    margin:0px;
+    padding:0px;
+
+}
+#for-margin{
+    margin-left: 36%;
+}
+
+
+.flex-wala-box{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondary-text-box-1{
+    display: inline-block;
+ }
+
+#mini-text-box1{
+    display: inline-block;
+    font-size: 90px;
+    color: rgba(169, 171, 180, 1);
+   }
+#guide-bold{
+    font-weight: bold;
+}
+#mini-text-box-2{
+    
+    font-size: 22px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+#secondary-text-box-2
+{   height: auto;
+    font-size: 85px;
+    padding-left: 40px; 
+    margin-top:-35px;
+      color: rgba(255, 255, 255, 1);
+  }
+#secondary-text-box-3{
+    font-size: 22px;
+    display:inline-block;
+    text-align: center;
+    margin-left:95px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top:-15px;
+    width:650px;
+    /* border: 2px solid white; */
+}
+.hidden-text{
+    display:none;
+    color: transparent;
+}
+.shreyamakesmecry{
+    display: none;
+}
+#secondary-text-box-4{
+    padding-left: 145px;
+    padding-top: 25px;
+}
+#secondary-text-box-5{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#secondary-text-box-5 div{
+    border: 1px solid red;
+    text-decoration: underline;
+    color: white;
+    
+}
+.button {
+    background-color:rgba(100, 100, 100, 1) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 23px;
+    font-size: 16px;
+    width:550px;
+  }
+  .button:hover{
+    cursor:pointer;
+  }
+
+
+
+
+
+
+
+  @media only screen and (max-width:767px){
+    #for-margin{
+        margin-left:45%;
+        font-weight: 500;
+    }
+   
+    #mini-text-box1{
+        display: inline-block;
+        font-size: 40px;
+        color: white;
+
+        }
+        .none-display{
+            display: none;
+        }
+   #guide-bold{
+    color: rgba(169, 171, 180, 1);
+
+   }
+    #mini-text-box-2{
+       font-size: 19px; 
+       display: none;
+    }
+    #secondary-text-box-2 { 
+    font-size: 40px;
+    padding-left: 0px;
+    margin-top: -5px;
+    line-height:110%;
+    
+ 
+    }
+   
+    #secondary-text-box-3{
+    font-size: 17px;
+    margin-left: 0px;
+    width: auto;
+    text-align: left;
+    margin-top: 10px;
+
+    }
+    .button{
+        width:150px;
+        font-size: 14px;
+        padding: 8px 18px;
+        font-size: 17px;
+        font-weight: 600;
+
+        
+    }
+    #secondary-text-box-4{
+        padding-left:0px;
+        padding-top: 25px;
+        margin-top: 10px;
+    }
+    .flex-wala-box{
+        display: flex;
+        height: 60vh;
+        width: 80%;
+        margin: auto;
+        /* align-items: none; */
+        /* justify-content: none; */
+    }
+    .responsive-color{
+        color: rgba(169, 171, 180, 1);
+        font-weight:500;
+
+    }
+    #button-border{
+        border: none;
+    }
+    /* #button-color{
+        background: white;
+    } */
+    .shreyamakesmecry{
+        display: inline-block;
+    }
+  }
+
+
+
+
+
+
+  @media (min-width:768px) and (max-width:900px){
+    #for-margin{
+        margin-left: 20%;
+    }
+    #mini-text-box-2{
+       font-size: 19px; 
+    }
+    #secondary-text-box-2 { 
+    font-size: 63px;
+    }
+    #mini-text-box1{
+    display: inline-block;
+    font-size: 68px;
+    color: rgba(169, 171, 180, 1);
+    }
+    #secondary-text-box-3{
+    font-size: 19px;
+    width:480px;
+
+    }
+   
+    .button{
+        width:420px; 
+        /* padding: 10px 25px; */
+
+    }
+    
+  } 
+
+
+
+
+   @media (min-width:900px) and (max-width:1050px){
+    #for-margin{
+        margin-left: 30%;
+    }
+    #mini-text-box-2{
+       font-size: 19px; 
+    }
+    #secondary-text-box-2 { 
+    font-size: 70px;
+    }
+    #mini-text-box1{
+    display: inline-block;
+    font-size: 75px;
+    color: rgba(169, 171, 180, 1);
+    }
+    #secondary-text-box-3{
+    font-size: 19px;
+    width:530px;
+    }
+    .button{
+        width:500px
+    }
+  } 
+
+
+
+
+
+  @media (min-width:1050px) and (max-width:1222px){
+    #for-margin{
+        margin-left: 30%;
+    }
+  } 

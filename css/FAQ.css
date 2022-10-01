@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background: black; */
+
+}
+
+
+body{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 2.5rem;
+
+ }
+
+/* body {
+    padding:30px 50px;
+} */
+
+.back-button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    /* margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px; */
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .back-button a{
+   text-decoration: none;
+   /* color:rgb(149, 157, 192); */
+   color:white;
+   font-weight: bold;
+   color:white ;
+ }
+ .back-button a:hover{
+   color:rgb(149, 157, 192);
+   transition: 0.3s;
+ }
+ .headings{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   /* margin-left: 80px; */
+   margin-bottom: 35px;
+   color:white;
+   /* font-size: 45px; */
+ 
+
+}
+.heading-1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color:white;
+
+}
+.heading-2{
+    font-size: 23px;
+    display: block;
+    margin: auto;
+    color:white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    /* width:50% */
+    /* border:2px solid green; */
+    width:655px;
+
+
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    /* font-style: italic; */
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: black;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+@media only screen and (max-width:775px){
+   #question1{
+    font-size: 1.2rem;
+    font-weight: 450;
+   }
+   #question2{
+    font-size: 1.2rem;
+    font-weight: 450;
+
+   }
+   #question3{
+    font-size: 1.2rem;
+    font-weight: 450;
+
+   }
+   #question4{
+    font-size: 1.2rem;
+    font-weight: 450;
+
+   }
+   #question5{
+    font-size: 1.2rem;
+    font-weight: 450;
+
+   }
+   .headings{
+    display: block;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; */
+    /* margin-left: 80px; */
+    margin-bottom: 35px;
+    color:white;
+    /* font-size: 45px; */
+  
+ 
+ }
+ .heading-1{
+     display: block;
+     margin: auto;
+     text-align: center;
+     font-size: 45px;
+     font-weight: bold;
+     color:white;
+     margin-bottom: 20px;
+     width:auto;
+ 
+ }
+ .heading-2{
+     font-size: 1.2rem;
+     width:75%;
+     display: block;
+     margin: auto;
+     color:white;
+     text-align: left;
+     /* display: block; */
+     /* margin: auto; */
+     /* text-align: center; */
+     /* width:50% */
+ 
+ 
+ }
+   
+   
+  }
+   @media (min-width:700px) and (max-width:1050px){
+   
+  } 
+  @media (min-width:1050px) and (max-width:1400px){
+  
+  } 

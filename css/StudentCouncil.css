@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+ }
+ body{
+    background-color: black;
+    height: 100%;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+ }
+ 
+   
+
+ #sh-background-color{
+    background-color: black;
+    height:100%;
+    width:100%;
+ }
+
+ .sh-back-button{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 35px;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+.sh-back-button a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+.sh-back-button a:hover{
+   color:rgb(149, 157, 192);
+    transition: 0.3s;
+}
+.heading{
+   display: block;
+   margin-top: 30px;
+   margin-left: 5%;
+   margin-bottom: 65px;
+   color:white;
+   font-size: 45px;
+   font-weight: bold;
+
+}
+ .sh-primarybox-adjustment{
+   margin-left: 5%;
+   margin-right: 20px;
+ }
+ .shprimarybox{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 55px;
+    column-gap: 35px;
+    margin-bottom: 20px;
+ }
+
+ .school-button{
+    width:257px;
+    height: 88px;
+    border-radius: 22px;
+    background:rgba(217, 217, 217, 1);
+    font-weight: 550;
+    font-size: 22px;
+ }
+ @media only screen and (max-width:600px){
+   .shprimarybox{
+      grid-template-columns: repeat(1, auto);
+
+   }
+   .heading{
+      display: block;
+      margin-top: 30px;
+      margin-left: 5%;
+      margin-bottom: 45px;
+      color:white;
+      font-size: 40px;
+      font-weight: bold;
+      width: 300px;
+   
+   }
+ 
+   .school-button{
+      width:205.6px;
+      height: 70.4px;
+      border-radius: 22px;
+      background:rgba(217, 217, 217, 1);
+      font-weight: 550;
+      font-size: 17.6px;
+      margin-top: 20px;
+   }
+   .dabba{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   
+   
+   
+ }
+ @media (min-width:600px) and (max-width:889px){
+   .shprimarybox{
+      grid-template-columns: repeat(2, auto);
+   }}
+ 
+ 
+ 
+ 
+  @media (min-width:890px) and (max-width:1206px){
+   .shprimarybox{
+      grid-template-columns: repeat(3, auto);
+   }
+ 
+   .adjustment{
+      display: block;
+      width:535px;
+      margin: auto;
+      border: 2px solid green;
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* flex-direction: column; */
+   }
+ 
+   .sh-primarybox-adjustment{
+      margin-left: none;
+      margin-right: none;
+    }
+ } 
+ @media (min-width:1207px) and (max-width:1400px) {
+   .outletsprimarybox{
+      grid-template-columns: repeat(3, auto);
+   }}
